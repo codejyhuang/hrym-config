@@ -1,6 +1,4 @@
-spring:
-  application:
-    name: hrym-provider-flock
+
   redis:
     host: 192.168.1.210
     password: 123456
