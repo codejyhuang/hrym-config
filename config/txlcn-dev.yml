@@ -1,0 +1,9 @@
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
+  logger:
+    enabled: true
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://192.168.1.210:3307/hrym-dev?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root@123456

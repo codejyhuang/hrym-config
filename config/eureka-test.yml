@@ -1,0 +1,9 @@
+#eureka放在这里是因为config会从eureka里面读取
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin-test:Hrym201809@localhost:8761/eureka/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+
